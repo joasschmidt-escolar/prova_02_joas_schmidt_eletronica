@@ -9,7 +9,7 @@ function reqDeResistores(){
                 valorDeResis = parseInt(prompt("Digite o valor do registor em ohms: "))
                 serie +=  valorDeResis;
             }
-            alert(serie)
+            alert(serie + "ohms");
             break;
         case 2:
             for(let cont = 0; cont < numResistores; cont++){
